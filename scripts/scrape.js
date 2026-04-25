@@ -69,11 +69,15 @@ function parseSponsors(html) {
 function cleanSponsors(raw) {
   return raw
     .replace(/&amp;/g, "&")
+    .replace(/&#39;/g, "'")
+    .replace(/\s+/g, " ")
     .replace(/Family\/Community/gi, "")
     .replace(/Family\/Friends/gi, "")
-    .split(/[/&,]/)
+    .replace(/Family and Community/gi, "")
+    .trim()
+    .split(/[/&]/)
     .map((s) => s.trim())
-    .filter((s) => s.length > 1);
+    .filter((s) => s.length > 2);
 }
 
 function parseName(html) {
