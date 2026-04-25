@@ -1,1 +1,1038 @@
-[]
+[
+  {
+    "name": "Fresno County Superintendent of Schools",
+    "count": 15,
+    "teams": [
+      {
+        "id": "31176",
+        "name": "Aspen Ridge Gear Heads"
+      },
+      {
+        "id": "31174",
+        "name": "Aztec Robotics"
+      },
+      {
+        "id": "26286",
+        "name": "Bullard HS, Fresno USD"
+      },
+      {
+        "id": "31172",
+        "name": "Crescent Valley P.A.W."
+      },
+      {
+        "id": "26281",
+        "name": "Ctrl+Alt+Defeat"
+      },
+      {
+        "id": "26287",
+        "name": "Cyber Wizards"
+      },
+      {
+        "id": "26284",
+        "name": "Cybercougars"
+      },
+      {
+        "id": "26288",
+        "name": "Eagle Vision"
+      },
+      {
+        "id": "26285",
+        "name": "GEARdians"
+      },
+      {
+        "id": "26282",
+        "name": "Mini-Rex"
+      },
+      {
+        "id": "31178",
+        "name": "NOVA"
+      },
+      {
+        "id": "31173",
+        "name": "Project S.O.U.T.H. Cyberhorns"
+      },
+      {
+        "id": "31175",
+        "name": "Smashing Pumpkins"
+      },
+      {
+        "id": "31179",
+        "name": "VHEA DeathStarz"
+      },
+      {
+        "id": "31177",
+        "name": "WolfBot Vanguard"
+      }
+    ]
+  },
+  {
+    "name": "Apple",
+    "count": 14,
+    "teams": [
+      {
+        "id": "4345",
+        "name": "Aragon Robotics"
+      },
+      {
+        "id": "32057",
+        "name": "InnovateBot"
+      },
+      {
+        "id": "30618",
+        "name": "Itkan Tawasaw Eclipse"
+      },
+      {
+        "id": "30619",
+        "name": "Itkan Tawasaw Mars Rovers"
+      },
+      {
+        "id": "12635",
+        "name": "Kuriosity Robotics"
+      },
+      {
+        "id": "18504",
+        "name": "MAGIC BOTS"
+      },
+      {
+        "id": "19862",
+        "name": "Mecha Mantises"
+      },
+      {
+        "id": "11311",
+        "name": "Paragon"
+      },
+      {
+        "id": "20367",
+        "name": "RMS OverDrive"
+      },
+      {
+        "id": "20370",
+        "name": "RMS Phoenix"
+      },
+      {
+        "id": "30449",
+        "name": "RoboRoar"
+      },
+      {
+        "id": "32647",
+        "name": "RoboSpark"
+      },
+      {
+        "id": "32646",
+        "name": "Spark Motors"
+      },
+      {
+        "id": "5206",
+        "name": "The Knights of Ni"
+      }
+    ]
+  },
+  {
+    "name": "Gene Haas Foundation",
+    "count": 8,
+    "teams": [
+      {
+        "id": "25690",
+        "name": "Evergreen Tech-a-Trons"
+      },
+      {
+        "id": "26436",
+        "name": "IJAVVE"
+      },
+      {
+        "id": "22297",
+        "name": "InfiniBots"
+      },
+      {
+        "id": "21227",
+        "name": "Legend"
+      },
+      {
+        "id": "6165",
+        "name": "MSET CuttleFish"
+      },
+      {
+        "id": "28118",
+        "name": "Robo Stallions"
+      },
+      {
+        "id": "19505",
+        "name": "TerraRise"
+      },
+      {
+        "id": "3470",
+        "name": "The Patriots"
+      }
+    ]
+  },
+  {
+    "name": "Google",
+    "count": 8,
+    "teams": [
+      {
+        "id": "16533",
+        "name": "Infernobots"
+      },
+      {
+        "id": "12635",
+        "name": "Kuriosity Robotics"
+      },
+      {
+        "id": "22100",
+        "name": "Maximum Overdrive"
+      },
+      {
+        "id": "7854",
+        "name": "MidKnight Madness"
+      },
+      {
+        "id": "6165",
+        "name": "MSET CuttleFish"
+      },
+      {
+        "id": "7390",
+        "name": "MSET JellyFish"
+      },
+      {
+        "id": "16532",
+        "name": "Sparkbots"
+      },
+      {
+        "id": "14259",
+        "name": "TURBΩ V8"
+      }
+    ]
+  },
+  {
+    "name": "Piedmont Makers",
+    "count": 7,
+    "teams": [
+      {
+        "id": "31659",
+        "name": "(E.L.M.O.) Engineers of Lafayette Moraga Orinda"
+      },
+      {
+        "id": "21483",
+        "name": "Blinky Bots"
+      },
+      {
+        "id": "21419",
+        "name": "Circuit Breakers"
+      },
+      {
+        "id": "21402",
+        "name": "Clankers"
+      },
+      {
+        "id": "18133",
+        "name": "Code Bread"
+      },
+      {
+        "id": "16278",
+        "name": "Error 404 - Team Not Found"
+      },
+      {
+        "id": "18134",
+        "name": "Short Circuits"
+      }
+    ]
+  },
+  {
+    "name": "Dream Maker Fund",
+    "count": 7,
+    "teams": [
+      {
+        "id": "31131",
+        "name": "Electra Lions"
+      },
+      {
+        "id": "18233",
+        "name": "Mercy Mechs"
+      },
+      {
+        "id": "4475",
+        "name": "Purple Reign"
+      },
+      {
+        "id": "8404",
+        "name": "Quixilver"
+      },
+      {
+        "id": "28118",
+        "name": "Robo Stallions"
+      },
+      {
+        "id": "27869",
+        "name": "SJ Bees"
+      },
+      {
+        "id": "8375",
+        "name": "Vulcan Robotics"
+      }
+    ]
+  },
+  {
+    "name": "E and the Dream Maker Fund",
+    "count": 7,
+    "teams": [
+      {
+        "id": "26285",
+        "name": "GEARdians"
+      },
+      {
+        "id": "16533",
+        "name": "Infernobots"
+      },
+      {
+        "id": "18466",
+        "name": "Mastermindz"
+      },
+      {
+        "id": "23642",
+        "name": "Qbit"
+      },
+      {
+        "id": "16532",
+        "name": "Sparkbots"
+      },
+      {
+        "id": "23279",
+        "name": "Turbotrons"
+      },
+      {
+        "id": "14969",
+        "name": "Vortex"
+      }
+    ]
+  },
+  {
+    "name": "Polymaker",
+    "count": 6,
+    "teams": [
+      {
+        "id": "25690",
+        "name": "Evergreen Tech-a-Trons"
+      },
+      {
+        "id": "26436",
+        "name": "IJAVVE"
+      },
+      {
+        "id": "22297",
+        "name": "InfiniBots"
+      },
+      {
+        "id": "28118",
+        "name": "Robo Stallions"
+      },
+      {
+        "id": "14525",
+        "name": "TerraBats"
+      },
+      {
+        "id": "19505",
+        "name": "TerraRise"
+      }
+    ]
+  },
+  {
+    "name": "Sacred Hearts Schools-Atherton",
+    "count": 5,
+    "teams": [
+      {
+        "id": "10023",
+        "name": "AWOL"
+      },
+      {
+        "id": "13981",
+        "name": "Extended Time"
+      },
+      {
+        "id": "16886",
+        "name": "kevin"
+      },
+      {
+        "id": "19896",
+        "name": "Measure Once Cut Twice"
+      },
+      {
+        "id": "16887",
+        "name": "QUACK"
+      }
+    ]
+  },
+  {
+    "name": "Bellarmine College Prep School",
+    "count": 5,
+    "teams": [
+      {
+        "id": "23223",
+        "name": "Cheesy Boltz"
+      },
+      {
+        "id": "23224",
+        "name": "Cheesy Bytes"
+      },
+      {
+        "id": "23222",
+        "name": "Cheesy Chips"
+      },
+      {
+        "id": "23229",
+        "name": "Cheesy Strings"
+      },
+      {
+        "id": "23230",
+        "name": "Cheesy Wheels"
+      }
+    ]
+  },
+  {
+    "name": "Santa Clara High School",
+    "count": 5,
+    "teams": [
+      {
+        "id": "13217",
+        "name": "Codo Dragons"
+      },
+      {
+        "id": "13216",
+        "name": "Deja Vu"
+      },
+      {
+        "id": "13223",
+        "name": "Erudite"
+      },
+      {
+        "id": "13219",
+        "name": "Synthesis"
+      },
+      {
+        "id": "13218",
+        "name": "Taro"
+      }
+    ]
+  },
+  {
+    "name": "49ers STEM Leadership Institute (SLI)",
+    "count": 5,
+    "teams": [
+      {
+        "id": "13217",
+        "name": "Codo Dragons"
+      },
+      {
+        "id": "13216",
+        "name": "Deja Vu"
+      },
+      {
+        "id": "13223",
+        "name": "Erudite"
+      },
+      {
+        "id": "13219",
+        "name": "Synthesis"
+      },
+      {
+        "id": "13218",
+        "name": "Taro"
+      }
+    ]
+  },
+  {
+    "name": "Redwood Middle School",
+    "count": 5,
+    "teams": [
+      {
+        "id": "20373",
+        "name": "RMS Chimera"
+      },
+      {
+        "id": "20405",
+        "name": "RMS Dragons"
+      },
+      {
+        "id": "20367",
+        "name": "RMS OverDrive"
+      },
+      {
+        "id": "20370",
+        "name": "RMS Phoenix"
+      },
+      {
+        "id": "25610",
+        "name": "Sour Cream Robotics"
+      }
+    ]
+  },
+  {
+    "name": "E Foundation",
+    "count": 4,
+    "teams": [
+      {
+        "id": "32820",
+        "name": "Electi Robotics"
+      },
+      {
+        "id": "31131",
+        "name": "Electra Lions"
+      },
+      {
+        "id": "28118",
+        "name": "Robo Stallions"
+      },
+      {
+        "id": "27869",
+        "name": "SJ Bees"
+      }
+    ]
+  },
+  {
+    "name": "Apple Inc.",
+    "count": 4,
+    "teams": [
+      {
+        "id": "7641",
+        "name": "MSET BettaFish"
+      },
+      {
+        "id": "6165",
+        "name": "MSET CuttleFish"
+      },
+      {
+        "id": "7390",
+        "name": "MSET JellyFish"
+      },
+      {
+        "id": "13356",
+        "name": "RoboForce"
+      }
+    ]
+  },
+  {
+    "name": "Evergreen Valley High School",
+    "count": 3,
+    "teams": [
+      {
+        "id": "18715",
+        "name": "Artemis"
+      },
+      {
+        "id": "9657",
+        "name": "Athena Robotics"
+      },
+      {
+        "id": "20791",
+        "name": "Kronos"
+      }
+    ]
+  },
+  {
+    "name": "Quarry Lane School",
+    "count": 3,
+    "teams": [
+      {
+        "id": "14770",
+        "name": "Control+Q"
+      },
+      {
+        "id": "23808",
+        "name": "Innovix"
+      },
+      {
+        "id": "11920",
+        "name": "QLS RaD Team"
+      }
+    ]
+  },
+  {
+    "name": "Home School",
+    "count": 3,
+    "teams": [
+      {
+        "id": "32820",
+        "name": "Electi Robotics"
+      },
+      {
+        "id": "25894",
+        "name": "Scarlet Serpents"
+      },
+      {
+        "id": "23543",
+        "name": "The Architects"
+      }
+    ]
+  },
+  {
+    "name": "John Deere",
+    "count": 3,
+    "teams": [
+      {
+        "id": "31131",
+        "name": "Electra Lions"
+      },
+      {
+        "id": "6165",
+        "name": "MSET CuttleFish"
+      },
+      {
+        "id": "31798",
+        "name": "YB Warriors"
+      }
+    ]
+  },
+  {
+    "name": "Fremont High",
+    "count": 3,
+    "teams": [
+      {
+        "id": "30541",
+        "name": "Electrobots"
+      },
+      {
+        "id": "26106",
+        "name": "Emberbots"
+      },
+      {
+        "id": "28526",
+        "name": "Fremont Fighters"
+      }
+    ]
+  },
+  {
+    "name": "Qualcomm",
+    "count": 3,
+    "teams": [
+      {
+        "id": "22297",
+        "name": "InfiniBots"
+      },
+      {
+        "id": "7641",
+        "name": "MSET BettaFish"
+      },
+      {
+        "id": "6165",
+        "name": "MSET CuttleFish"
+      }
+    ]
+  },
+  {
+    "name": "Family Friends",
+    "count": 3,
+    "teams": [
+      {
+        "id": "8381",
+        "name": "M"
+      },
+      {
+        "id": "7303",
+        "name": "RoboAvatars"
+      },
+      {
+        "id": "8375",
+        "name": "Vulcan Robotics"
+      }
+    ]
+  },
+  {
+    "name": "Walmart",
+    "count": 3,
+    "teams": [
+      {
+        "id": "20163",
+        "name": "Metal Maniacs"
+      },
+      {
+        "id": "14525",
+        "name": "TerraBats"
+      },
+      {
+        "id": "19505",
+        "name": "TerraRise"
+      }
+    ]
+  },
+  {
+    "name": "Saratoga High School",
+    "count": 3,
+    "teams": [
+      {
+        "id": "7641",
+        "name": "MSET BettaFish"
+      },
+      {
+        "id": "6165",
+        "name": "MSET CuttleFish"
+      },
+      {
+        "id": "7390",
+        "name": "MSET JellyFish"
+      }
+    ]
+  },
+  {
+    "name": "American High School",
+    "count": 2,
+    "teams": [
+      {
+        "id": "19639",
+        "name": "Alphabots"
+      },
+      {
+        "id": "5773",
+        "name": "Ink and Metal"
+      }
+    ]
+  },
+  {
+    "name": "Redwood High",
+    "count": 2,
+    "teams": [
+      {
+        "id": "25829",
+        "name": "Artemis Robotics"
+      },
+      {
+        "id": "25830",
+        "name": "Maringineers"
+      }
+    ]
+  },
+  {
+    "name": "Solidworks",
+    "count": 2,
+    "teams": [
+      {
+        "id": "9657",
+        "name": "Athena Robotics"
+      },
+      {
+        "id": "8404",
+        "name": "Quixilver"
+      }
+    ]
+  },
+  {
+    "name": "AMD",
+    "count": 2,
+    "teams": [
+      {
+        "id": "32130",
+        "name": "Aureoboros"
+      },
+      {
+        "id": "26436",
+        "name": "IJAVVE"
+      }
+    ]
+  },
+  {
+    "name": "Woodside Priory School",
+    "count": 2,
+    "teams": [
+      {
+        "id": "23586",
+        "name": "Bacon Bots"
+      },
+      {
+        "id": "23586",
+        "name": "Bacon Bots"
+      }
+    ]
+  },
+  {
+    "name": "Sacred Heart Schools, Atherton",
+    "count": 2,
+    "teams": [
+      {
+        "id": "16283",
+        "name": "BANG!"
+      },
+      {
+        "id": "16276",
+        "name": "Dumpster Fire"
+      }
+    ]
+  },
+  {
+    "name": "Pressutti Orthodontics",
+    "count": 2,
+    "teams": [
+      {
+        "id": "17094",
+        "name": "E.G.G."
+      },
+      {
+        "id": "14323",
+        "name": "Half-Wit Hatchlings"
+      }
+    ]
+  },
+  {
+    "name": "Rachel E. Jack-Berglund, DDS",
+    "count": 2,
+    "teams": [
+      {
+        "id": "17094",
+        "name": "E.G.G."
+      },
+      {
+        "id": "14323",
+        "name": "Half-Wit Hatchlings"
+      }
+    ]
+  },
+  {
+    "name": "McCaffrey Homes",
+    "count": 2,
+    "teams": [
+      {
+        "id": "17094",
+        "name": "E.G.G."
+      },
+      {
+        "id": "14323",
+        "name": "Half-Wit Hatchlings"
+      }
+    ]
+  },
+  {
+    "name": "California Builder Services",
+    "count": 2,
+    "teams": [
+      {
+        "id": "17094",
+        "name": "E.G.G."
+      },
+      {
+        "id": "14323",
+        "name": "Half-Wit Hatchlings"
+      }
+    ]
+  },
+  {
+    "name": "Wade Family",
+    "count": 2,
+    "teams": [
+      {
+        "id": "17094",
+        "name": "E.G.G."
+      },
+      {
+        "id": "14323",
+        "name": "Half-Wit Hatchlings"
+      }
+    ]
+  },
+  {
+    "name": "Alta Sierra Intermediate Sch",
+    "count": 2,
+    "teams": [
+      {
+        "id": "17094",
+        "name": "E.G.G."
+      },
+      {
+        "id": "14323",
+        "name": "Half-Wit Hatchlings"
+      }
+    ]
+  },
+  {
+    "name": "The Dream Maker Fund",
+    "count": 2,
+    "teams": [
+      {
+        "id": "32820",
+        "name": "Electi Robotics"
+      },
+      {
+        "id": "31011",
+        "name": "Itkan Sequoias"
+      }
+    ]
+  },
+  {
+    "name": "The DEKA Foundation",
+    "count": 2,
+    "teams": [
+      {
+        "id": "32820",
+        "name": "Electi Robotics"
+      },
+      {
+        "id": "30449",
+        "name": "RoboRoar"
+      }
+    ]
+  },
+  {
+    "name": "Bosch Community Fund",
+    "count": 2,
+    "teams": [
+      {
+        "id": "32820",
+        "name": "Electi Robotics"
+      },
+      {
+        "id": "30449",
+        "name": "RoboRoar"
+      }
+    ]
+  },
+  {
+    "name": "The Timken Company",
+    "count": 2,
+    "teams": [
+      {
+        "id": "32820",
+        "name": "Electi Robotics"
+      },
+      {
+        "id": "30449",
+        "name": "RoboRoar"
+      }
+    ]
+  },
+  {
+    "name": "Jabil Cares Foundation",
+    "count": 2,
+    "teams": [
+      {
+        "id": "32820",
+        "name": "Electi Robotics"
+      },
+      {
+        "id": "30449",
+        "name": "RoboRoar"
+      }
+    ]
+  },
+  {
+    "name": "Misumi",
+    "count": 2,
+    "teams": [
+      {
+        "id": "25690",
+        "name": "Evergreen Tech-a-Trons"
+      },
+      {
+        "id": "14525",
+        "name": "TerraBats"
+      }
+    ]
+  },
+  {
+    "name": "SWYFT Robotics",
+    "count": 2,
+    "teams": [
+      {
+        "id": "25690",
+        "name": "Evergreen Tech-a-Trons"
+      },
+      {
+        "id": "14525",
+        "name": "TerraBats"
+      }
+    ]
+  },
+  {
+    "name": "Fremont High School",
+    "count": 2,
+    "teams": [
+      {
+        "id": "16533",
+        "name": "Infernobots"
+      },
+      {
+        "id": "16532",
+        "name": "Sparkbots"
+      }
+    ]
+  },
+  {
+    "name": "E Foundation and the Dream Maker Fund",
+    "count": 2,
+    "teams": [
+      {
+        "id": "23808",
+        "name": "Innovix"
+      },
+      {
+        "id": "25725",
+        "name": "Raptor Force Engineering"
+      }
+    ]
+  },
+  {
+    "name": "Tawasaw",
+    "count": 2,
+    "teams": [
+      {
+        "id": "30618",
+        "name": "Itkan Tawasaw Eclipse"
+      },
+      {
+        "id": "30619",
+        "name": "Itkan Tawasaw Mars Rovers"
+      }
+    ]
+  },
+  {
+    "name": "DOW",
+    "count": 2,
+    "teams": [
+      {
+        "id": "21227",
+        "name": "Legend"
+      },
+      {
+        "id": "18466",
+        "name": "Mastermindz"
+      }
+    ]
+  },
+  {
+    "name": "Monticello Academy",
+    "count": 2,
+    "teams": [
+      {
+        "id": "17835",
+        "name": "Mach 10"
+      },
+      {
+        "id": "30508",
+        "name": "Robostangs"
+      }
+    ]
+  },
+  {
+    "name": "SMUD",
+    "count": 2,
+    "teams": [
+      {
+        "id": "20163",
+        "name": "Metal Maniacs"
+      },
+      {
+        "id": "20163",
+        "name": "Metal Maniacs"
+      }
+    ]
+  },
+  {
+    "name": "Intuitive Surgical",
+    "count": 2,
+    "teams": [
+      {
+        "id": "7854",
+        "name": "MidKnight Madness"
+      },
+      {
+        "id": "8375",
+        "name": "Vulcan Robotics"
+      }
+    ]
+  }
+]

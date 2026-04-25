@@ -2,9 +2,9 @@
   "meta": {
     "region": "USCANO",
     "season": "2025",
-    "generatedAt": "2026-04-25T17:43:11.319Z",
+    "generatedAt": "2026-04-25T18:03:30.672Z",
     "totalTeams": 285,
-    "teamsWithSponsors": 0
+    "teamsWithSponsors": 201
   },
   "teams": [
     {
@@ -13,7 +13,9 @@
       "city": "Dublin, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Quarry Lane"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/5214"
@@ -24,7 +26,9 @@
       "city": "Oakland, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Piedmont Makers"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31659"
@@ -46,7 +50,10 @@
       "city": "Lafayette, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Lafayette Partners in Education (LPIE)",
+        "Acalanes High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/24689"
@@ -57,7 +64,10 @@
       "city": "Grass Valley, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Telestream",
+        "Acme Robotics Incorporated"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/8367"
@@ -68,7 +78,9 @@
       "city": "Martinez, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Alhambra High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/21027"
@@ -90,7 +102,10 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "American High School",
+        "Thornton Junior High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/19639"
@@ -134,7 +149,9 @@
       "city": "Walnut Creek, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "FIRST Stewardship Team"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/27933"
@@ -145,7 +162,13 @@
       "city": "San Mateo, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "San Mateo Union High School District",
+        "Apple",
+        "Google, Inc.",
+        "Intuit Surgical",
+        "Aragon High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/4345"
@@ -156,7 +179,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Evergreen Valley High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/18715"
@@ -167,7 +192,9 @@
       "city": "Mill Valley, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Redwood High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/25829"
@@ -178,7 +205,10 @@
       "city": "Fresno, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fresno County Superintendent of Schools",
+        "Aspen Ridge Public"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31176"
@@ -200,7 +230,10 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Solidworks",
+        "Evergreen Valley High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/9657"
@@ -222,7 +255,9 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "AMD"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/32130"
@@ -233,7 +268,9 @@
       "city": "Atherton, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Sacred Hearts Schools-Atherton"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/10023"
@@ -244,7 +281,10 @@
       "city": "Mendota, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fresno County Superintendent of Schools",
+        "Mendota High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31174"
@@ -255,7 +295,11 @@
       "city": "Portola Valley, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Woodside Priory School",
+        "Parents of Priory",
+        "Woodside Priory School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/23586"
@@ -266,7 +310,9 @@
       "city": "Atherton, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Sacred Heart Schools, Atherton"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/16283"
@@ -299,7 +345,10 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Greentech Electric Solutions Inc",
+        "Del Mar High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/12492"
@@ -310,7 +359,9 @@
       "city": "Piedmont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Piedmont Makers"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/21483"
@@ -321,7 +372,12 @@
       "city": "Moraga, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Moraga Hardware and Lumber",
+        "Solid Works",
+        "E and Dream Maker Fund",
+        "Campolindo High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/524"
@@ -332,7 +388,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Union Middle"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/30521"
@@ -376,7 +434,9 @@
       "city": "Fresno, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Granite Ridge Intermediate"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/32245"
@@ -387,7 +447,10 @@
       "city": "Fresno, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fresno County Superintendent of Schools",
+        "Bullard High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26286"
@@ -398,7 +461,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "E Corporation"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/30724"
@@ -420,7 +485,9 @@
       "city": "Seaside, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Chartwell School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/21885"
@@ -431,7 +498,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Bellarmine College Prep School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/23223"
@@ -442,7 +511,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Bellarmine College Prep School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/23224"
@@ -453,7 +524,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Bellarmine College Prep School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/23222"
@@ -464,7 +537,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Bellarmine College Prep School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/23229"
@@ -475,7 +550,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Bellarmine College Prep School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/23230"
@@ -486,7 +563,10 @@
       "city": "San Bruno, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "San Bruno Foundation",
+        "Capuchino High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/24409"
@@ -497,7 +577,9 @@
       "city": "San Rafael, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "San Rafael High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/32193"
@@ -508,7 +590,9 @@
       "city": "Gilroy, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Christopher High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26114"
@@ -519,7 +603,9 @@
       "city": "Piedmont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Piedmont Makers"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/21419"
@@ -530,7 +616,9 @@
       "city": "Piedmont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Piedmont Makers"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/21402"
@@ -552,7 +640,9 @@
       "city": "Piedmont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Piedmont Makers"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/18133"
@@ -563,7 +653,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "St Clares School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/30467"
@@ -574,7 +666,10 @@
       "city": "Santa Clara, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Santa Clara High School",
+        "49ers STEM Leadership Institute (SLI)"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/13217"
@@ -607,7 +702,9 @@
       "city": "Oakland, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Coliseum College Prep Academy"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/22904"
@@ -618,7 +715,11 @@
       "city": "Santa Rosa, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Intuitive Foundation",
+        "Home Depot Windsor CA",
+        "Sonoma Country Day School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/14493"
@@ -629,7 +730,9 @@
       "city": "Dublin, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Quarry Lane School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/14770"
@@ -651,7 +754,9 @@
       "city": "Clovis, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Clovis High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/25626"
@@ -662,7 +767,10 @@
       "city": "Visalia, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fresno County Superintendent of Schools",
+        "Crescent Valley Public Charter Ii"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31172"
@@ -673,7 +781,9 @@
       "city": "Fresno, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Career Technical Education Charter"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26076"
@@ -684,7 +794,10 @@
       "city": "Fresno, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fresno County Superintendent of Schools",
+        "Baird Middle"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26281"
@@ -739,7 +852,9 @@
       "city": "Arcata, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Arcata High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/32588"
@@ -750,7 +865,10 @@
       "city": "Fresno, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fresno County Superintendent of Schools",
+        "Central East High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26287"
@@ -783,7 +901,10 @@
       "city": "Clovis, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fresno County Superintendent of Schools",
+        "Clovis High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26284"
@@ -794,7 +915,9 @@
       "city": "Oakland, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Oakland Technical High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/24381"
@@ -805,7 +928,9 @@
       "city": "Pacifica, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Oceana High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26340"
@@ -849,7 +974,10 @@
       "city": "Santa Clara, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Santa Clara High School",
+        "49ers STEM Leadership Institute (SLI)"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/13216"
@@ -860,7 +988,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Delta Robotics"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/21463"
@@ -915,7 +1045,9 @@
       "city": "Atherton, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Sacred Heart Schools, Atherton"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/16276"
@@ -926,7 +1058,14 @@
       "city": "Clovis, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Pressutti Orthodontics",
+        "Rachel E. Jack-Berglund, DDS",
+        "McCaffrey Homes",
+        "California Builder Services",
+        "Wade Family",
+        "Alta Sierra Intermediate Sch"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/17094"
@@ -937,7 +1076,10 @@
       "city": "Fresno, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fresno County Superintendent of Schools",
+        "Clovis West High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26288"
@@ -970,7 +1112,10 @@
       "city": "Sacramento, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "E and DreamMakers Fund",
+        "Albert Einstein Middle School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/6949"
@@ -981,7 +1126,16 @@
       "city": "American Canyon, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "P,G",
+        "E Foundation",
+        "The Dream Maker Fund",
+        "The DEKA Foundation",
+        "Bosch Community Fund",
+        "The Timken Company",
+        "Jabil Cares Foundation",
+        "Home School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/32820"
@@ -992,7 +1146,12 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "John Deere",
+        "E Foundation",
+        "Dream Maker Fund",
+        "Stratford Preparatory Blackford"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31131"
@@ -1003,7 +1162,10 @@
       "city": "Santa Clara, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fremont High",
+        "Don Callejon"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/30541"
@@ -1014,7 +1176,9 @@
       "city": "Sunnyvale, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fremont High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26106"
@@ -1025,7 +1189,9 @@
       "city": "Piedmont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Piedmont Makers"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/16278"
@@ -1036,7 +1202,10 @@
       "city": "Santa Clara, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Santa Clara High School",
+        "49ers STEM Leadership Institute (SLI)"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/13223"
@@ -1058,7 +1227,12 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Gene Haas Foundation",
+        "Misumi",
+        "Polymaker",
+        "SWYFT Robotics"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/25690"
@@ -1069,7 +1243,9 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Bin To Better"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31579"
@@ -1080,7 +1256,9 @@
       "city": "Atherton, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Sacred Hearts Schools-Atherton"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/13981"
@@ -1091,7 +1269,9 @@
       "city": "Sacramento, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Christian Brothers High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/6286"
@@ -1102,7 +1282,9 @@
       "city": "Oakland, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fremont High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/28526"
@@ -1135,7 +1317,11 @@
       "city": "Fresno, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fresno County Superintendent of Schools",
+        "E and the Dream Maker Fund",
+        "Justin Garza High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26285"
@@ -1146,7 +1332,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Gunderson High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/33890"
@@ -1157,7 +1345,14 @@
       "city": "Clovis, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Pressutti Orthodontics",
+        "Rachel E. Jack-Berglund, DDS",
+        "McCaffrey Homes",
+        "California Builder Services",
+        "Wade Family",
+        "Alta Sierra Intermediate Sch"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/14323"
@@ -1201,7 +1396,9 @@
       "city": "Hercules, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Hercules Middle High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/21940"
@@ -1223,7 +1420,9 @@
       "city": "Sacramento, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Sacramento Country Day School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/24123"
@@ -1234,7 +1433,9 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Mission San Jose High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/9614"
@@ -1245,7 +1446,9 @@
       "city": "Healdsburg, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "HEARTIZENS"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31031"
@@ -1278,7 +1481,13 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "AMD",
+        "Polymaker",
+        "Gene Haas Foundation",
+        "Valle Vista Elementary",
+        "Ida Jew Academies"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26436"
@@ -1300,7 +1509,11 @@
       "city": "Sunnyvale, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Google",
+        "E and the Dream Maker Fund",
+        "Fremont High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/16533"
@@ -1311,7 +1524,14 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fremont Bridge Rotary Club",
+        "Qualcomm",
+        "NVIDIA",
+        "Polymaker",
+        "Gene Haas Foundation",
+        "Clorox"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/22297"
@@ -1333,7 +1553,9 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "American High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/5773"
@@ -1344,7 +1566,9 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Apple"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/32057"
@@ -1355,7 +1579,10 @@
       "city": "Dublin, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "E Foundation and the Dream Maker Fund",
+        "Quarry Lane School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/23808"
@@ -1377,7 +1604,9 @@
       "city": "Visalia, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "The Dream Maker Fund"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31011"
@@ -1388,7 +1617,10 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Apple",
+        "Tawasaw"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/30618"
@@ -1399,7 +1631,10 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Apple",
+        "Tawasaw"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/30619"
@@ -1421,7 +1656,9 @@
       "city": "Sacramento, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "John F Kennedy High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/23393"
@@ -1432,7 +1669,11 @@
       "city": "Folsom, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Silent Bot Deadly STEM Education",
+        "Prototek Digital Manufacturing",
+        "Micron"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/16236"
@@ -1454,7 +1695,9 @@
       "city": "Atherton, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Sacred Hearts Schools-Atherton"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/16886"
@@ -1465,7 +1708,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Evergreen Valley High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/20791"
@@ -1476,7 +1721,12 @@
       "city": "Palo Alto, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Google",
+        "Apple",
+        "Cisco",
+        "PayPal"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/12635"
@@ -1487,7 +1737,10 @@
       "city": "Upper Lake, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Reynolds Systems, Inc.",
+        "Upper Lake High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/24105"
@@ -1498,7 +1751,11 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "JoinDigital",
+        "Gene Haas Foundation",
+        "DOW"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/21227"
@@ -1553,7 +1810,10 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Lockheed Martin",
+        "Leigh High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/13274"
@@ -1597,7 +1857,9 @@
       "city": "San Mateo, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Family Friends"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/8381"
@@ -1608,7 +1870,9 @@
       "city": "Santa Clara, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Monticello Academy"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/17835"
@@ -1619,7 +1883,9 @@
       "city": "Oakland, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Mcclymonds High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/19752"
@@ -1630,7 +1896,10 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Apple",
+        "John M Horner Jr High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/18504"
@@ -1641,7 +1910,9 @@
       "city": "Mill Valley, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Redwood High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/25830"
@@ -1652,7 +1923,16 @@
       "city": "Pleasanton, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "DOW",
+        "E and the Dream Maker Fund",
+        "SendCutSend",
+        "Fingertech Robotics",
+        "Zyltech",
+        "Amador Valley High School",
+        "Dougherty Valley High School",
+        "Fallon Middle School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/18466"
@@ -1663,7 +1943,9 @@
       "city": "San Mateo, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "San Mateo High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/22994"
@@ -1674,7 +1956,9 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Google"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/22100"
@@ -1685,7 +1969,9 @@
       "city": "Sacramento, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Rosemont High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/6948"
@@ -1696,7 +1982,9 @@
       "city": "Atherton, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Sacred Hearts Schools-Atherton"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/19896"
@@ -1707,7 +1995,9 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Apple"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/19862"
@@ -1718,7 +2008,9 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Basis Independent Fremont Upper School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31772"
@@ -1729,7 +2021,9 @@
       "city": "Merced, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Merced High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/30400"
@@ -1740,7 +2034,10 @@
       "city": "Burlingame, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Dream Maker Fund",
+        "Mercy High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/18233"
@@ -1751,7 +2048,9 @@
       "city": "Sacramento, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Westlake Charter"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26121"
@@ -1762,7 +2061,17 @@
       "city": "Folsom, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Folsom Lake College",
+        "Starbuck",
+        "#x27;s",
+        "SMUD",
+        "Walmart",
+        "Microsoft",
+        "Intel",
+        "Ginkgo",
+        "SMUD"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/20163"
@@ -1773,7 +2082,12 @@
       "city": "Sunnyvale, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Google",
+        "Intuitive Surgical",
+        "King",
+        "#x27;s Academy"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/7854"
@@ -1784,7 +2098,10 @@
       "city": "Sunnyvale, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "King",
+        "#x27;s Academy"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/15385"
@@ -1795,7 +2112,9 @@
       "city": "Milpitas, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Milpitas High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/27669"
@@ -1806,7 +2125,10 @@
       "city": "Fresno, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fresno County Superintendent of Schools",
+        "John F. Kennedy Middle School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26282"
@@ -1817,7 +2139,9 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Pacific Gas and Electricity"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26216"
@@ -1839,7 +2163,11 @@
       "city": "Saratoga, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Qualcomm",
+        "Apple Inc.",
+        "Saratoga High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/7641"
@@ -1850,7 +2178,15 @@
       "city": "Saratoga, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Apple Inc.",
+        "John Deere",
+        "Qualcomm",
+        "Rotary Club of Saratoga",
+        "Gene Haas Foundation",
+        "Google",
+        "Saratoga High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/6165"
@@ -1861,7 +2197,12 @@
       "city": "Saratoga, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Google",
+        "SanDisk Corp.",
+        "Apple Inc.",
+        "Saratoga High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/7390"
@@ -1872,7 +2213,9 @@
       "city": "Newark, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Newark Memorial High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/11898"
@@ -1883,7 +2226,9 @@
       "city": "Antioch, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Deer Valley High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/27089"
@@ -1894,7 +2239,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Hillbrook School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/27479"
@@ -1905,7 +2252,10 @@
       "city": "Tulare, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fresno County Superintendent of Schools",
+        "Kings Valley Academy Ii"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31178"
@@ -1927,7 +2277,9 @@
       "city": "Oakland, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Oakland High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/19514"
@@ -1938,7 +2290,9 @@
       "city": "Santa Clara, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Santa Clara High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31263"
@@ -1949,7 +2303,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Summit Public School-Tahoma"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/12516"
@@ -1960,7 +2316,9 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "E, The Dream Maker"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/27081"
@@ -1971,7 +2329,9 @@
       "city": "Danville, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "The Athenian School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/30594"
@@ -1993,7 +2353,10 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "STREAM Education Foundation",
+        "Apple"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/11311"
@@ -2004,7 +2367,10 @@
       "city": "Piedmont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "JDW Enterprises, Inc.",
+        "Piedmont Middle School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/11201"
@@ -2026,7 +2392,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Poseidon"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/27497"
@@ -2037,7 +2405,10 @@
       "city": "Fresno, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fresno County Superintendent of Schools",
+        "Phillip V. Sanchez Intermediate School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31173"
@@ -2048,7 +2419,15 @@
       "city": "Redwood City, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Sequoia Education Foundation",
+        "Sequoia Union High School District",
+        "Sequoia High School PTSA",
+        "Sequoia High School Alumni Association",
+        "E Corporation Foundation",
+        "Dream Maker Fund",
+        "Sequoia High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/4475"
@@ -2059,7 +2438,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Stratford Preparatory School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/21781"
@@ -2070,7 +2451,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "E and the Dream Maker Fund"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/23642"
@@ -2081,7 +2464,9 @@
       "city": "Dublin, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Quarry Lane School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/11920"
@@ -2092,7 +2477,9 @@
       "city": "san jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Qbit 23642"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/30569"
@@ -2103,7 +2490,9 @@
       "city": "Atherton, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Sacred Hearts Schools-Atherton"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/16887"
@@ -2125,7 +2514,9 @@
       "city": "Union City, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Code Ninjas"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/25131"
@@ -2147,7 +2538,11 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "SolidWorks",
+        "Dream Maker Fund",
+        "Leland Bridge"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/8404"
@@ -2158,7 +2553,11 @@
       "city": "Lodi, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "E Foundation and the Dream Maker Fund",
+        "Ronin Jiu-Jitsu",
+        "Jim Elliot Christian High Sch"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/25725"
@@ -2169,7 +2568,9 @@
       "city": "Roseville , CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Roseville High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/8625"
@@ -2180,7 +2581,10 @@
       "city": "Saratoga, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Apple Inc",
+        "Redwood Middle School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/20373"
@@ -2191,7 +2595,9 @@
       "city": "Saratoga, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Redwood Middle School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/20405"
@@ -2202,7 +2608,10 @@
       "city": "Saratoga, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Apple",
+        "Redwood Middle School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/20367"
@@ -2213,7 +2622,10 @@
       "city": "Saratoga, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Apple",
+        "Redwood Middle School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/20370"
@@ -2246,7 +2658,9 @@
       "city": "Santa Clara, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Wilcox High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/13190"
@@ -2268,7 +2682,9 @@
       "city": "Pleasanton, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Amador Valley High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/32098"
@@ -2279,7 +2695,14 @@
       "city": "Tracy, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "The Hack Foundation",
+        "Gene Haas Foundation",
+        "Merlin Graphics",
+        "Polymaker",
+        "E Foundation",
+        "Dream Maker Fund"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/28118"
@@ -2290,7 +2713,10 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "STREAM Education Foundation",
+        "Family Friends"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/7303"
@@ -2301,7 +2727,11 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Apple Inc.",
+        "Code For Fun",
+        "Send Cut Send"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/13356"
@@ -2312,7 +2742,12 @@
       "city": "Sacramento, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "SES Robotics",
+        "School of Egineering and Sciences",
+        "School Engineering",
+        "Science"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/4943"
@@ -2323,7 +2758,10 @@
       "city": "Santa Clara, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Rotary Club of Santa Clara",
+        "Wilcox High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/8872"
@@ -2334,7 +2772,16 @@
       "city": "Cupertino, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Solo Tech",
+        "Apple",
+        "The Janksters FRC Team 1967",
+        "The DEKA Foundation",
+        "Bosch Community Fund",
+        "The Timken Company",
+        "Jabil Cares Foundation",
+        "Shadow Oaks Apartment Homes"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/30449"
@@ -2345,7 +2792,9 @@
       "city": "Cupertino, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Apple"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/32647"
@@ -2356,7 +2805,9 @@
       "city": "Santa Clara, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Monticello Academy"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/30508"
@@ -2411,7 +2862,9 @@
       "city": "Union City, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Home School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/25894"
@@ -2422,7 +2875,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Silver Creek High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/28433"
@@ -2444,7 +2899,9 @@
       "city": "Hillsborough, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Nueva School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/13050"
@@ -2455,7 +2912,9 @@
       "city": "Burlingame, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "The Nueva Middle School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/28251"
@@ -2466,7 +2925,9 @@
       "city": "Dublin, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Emerald High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/30450"
@@ -2477,7 +2938,9 @@
       "city": "Piedmont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Piedmont Makers"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/18134"
@@ -2488,7 +2951,12 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "ASKSME INC",
+        "E Foundation",
+        "Dream Maker Fund",
+        "San Jose Christian Alliance Church (SJCAC)"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/27869"
@@ -2499,7 +2967,10 @@
       "city": "Alameda, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "E Corporation Foundation, Dream Maker Fund",
+        "Saint Joseph Notre Dame High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/24610"
@@ -2510,7 +2981,9 @@
       "city": "Oakland, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Skyline Senior High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/22964"
@@ -2521,7 +2994,10 @@
       "city": "Madera, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fresno County Superintendent of Schools",
+        "Crescent View South Ii"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31175"
@@ -2532,7 +3008,9 @@
       "city": "Saratoga, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Redwood Middle School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/25610"
@@ -2543,7 +3021,9 @@
       "city": "Cupertino, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Apple"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/32646"
@@ -2554,7 +3034,11 @@
       "city": "Sunnyvale, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Google",
+        "E and the Dream Maker Fund",
+        "Fremont High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/16532"
@@ -2565,7 +3049,9 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "E and Dream makers grant"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/596"
@@ -2576,7 +3062,10 @@
       "city": "Walnut Creek, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Adobe Systems Inc.",
+        "Berean Christian High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/4998"
@@ -2598,7 +3087,9 @@
       "city": "Visalia, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Sycamore Valley Academy"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/33437"
@@ -2609,7 +3100,10 @@
       "city": "Santa Clara, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Santa Clara High School",
+        "49ers STEM Leadership Institute (SLI)"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/13219"
@@ -2631,7 +3125,10 @@
       "city": "Santa Clara, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Santa Clara High School",
+        "49ers STEM Leadership Institute (SLI)"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/13218"
@@ -2664,7 +3161,12 @@
       "city": "Dublin, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "IGNITE Pathways",
+        "Cowbell",
+        "Neuro Health Alliance",
+        "Endor Labs"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/23512"
@@ -2697,7 +3199,9 @@
       "city": "Elk Grove, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Al-Misbaah Junior Lanterns"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26715"
@@ -2708,7 +3212,9 @@
       "city": "Morgan Hill, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Oakwood School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/18247"
@@ -2741,7 +3247,9 @@
       "city": "Folsom, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Vista Del Lago High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/25742"
@@ -2752,7 +3260,9 @@
       "city": "Pacifica, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Terra Nova High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/27645"
@@ -2763,7 +3273,16 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "TerraED",
+        "SWYFT Robotics",
+        "OMNIA",
+        "Coil Cable Specialist",
+        "Monster Bolts",
+        "MiSUMi",
+        "Walmart",
+        "Polymaker"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/14525"
@@ -2774,7 +3293,15 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "TerraED",
+        "Walmart",
+        "Polymaker",
+        "Monsterbolts",
+        "TJBakesEggless",
+        "Gene Haas Foundation",
+        "Bansal Consulting"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/19505"
@@ -2785,7 +3312,9 @@
       "city": "Milpitas, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Milpitas High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/27021"
@@ -2796,7 +3325,9 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Home School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/23543"
@@ -2818,7 +3349,9 @@
       "city": "Belvedere Tiburon, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Del Mar Middle School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/21925"
@@ -2829,7 +3362,11 @@
       "city": "Stanford, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Stanford Onlilne High School",
+        "Apple",
+        "Stanford University Online High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/5206"
@@ -2851,7 +3388,19 @@
       "city": "Brentwood, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Patriot Jet Team",
+        "Gene Haas Foundation",
+        "Brentwood Lion",
+        "#x27;s Club",
+        "Brentwood Rotary Club",
+        "Brentwood Soroptimists Club",
+        "Created By You",
+        "Space and Satellite Systems",
+        "Straw Hat Pizza",
+        "Drill Tech",
+        "Heritage High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/3470"
@@ -2862,7 +3411,9 @@
       "city": "Sacramento, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "C. K. McClatchy High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/21964"
@@ -2873,7 +3424,10 @@
       "city": "Alameda, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Alameda Sci",
+        "Tech Institute"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/22047"
@@ -2884,7 +3438,9 @@
       "city": "Atwater, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Buhach Colony High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/16247"
@@ -2895,7 +3451,9 @@
       "city": "Menlo Park, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "TIDE Academy"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/23051"
@@ -2906,7 +3464,11 @@
       "city": "Belmont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "The Monsanto Fund",
+        "The Olander Company",
+        "Notre Dame High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/7593"
@@ -2928,7 +3490,9 @@
       "city": "Pleasanton, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "E and the Dream Maker Fund"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/23279"
@@ -2939,7 +3503,10 @@
       "city": "Pleasanton, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "TE Connectivity",
+        "Google"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/14259"
@@ -2972,7 +3539,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "University Prep Academy CS"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/25246"
@@ -2994,7 +3563,10 @@
       "city": "Fresno, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fresno County Superintendent of Schools",
+        "Violet Heintz Education Academy"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31179"
@@ -3005,7 +3577,9 @@
       "city": "Fremont, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Irvington High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/32678"
@@ -3027,7 +3601,11 @@
       "city": "San Mateo, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Vortex Robotics",
+        "E and the Dream Maker Fund",
+        "NextGen Coders"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/14969"
@@ -3049,7 +3627,15 @@
       "city": "San Mateo, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Synnex Corporation",
+        "Intuitive Surgical",
+        "Camputee Press",
+        "No Starch Press",
+        "Dream Maker Fund",
+        "Artiman",
+        "Family Friends"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/8375"
@@ -3060,7 +3646,9 @@
       "city": "Mountain View, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Waldorf Sch of the Peninsula"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/7175"
@@ -3071,7 +3659,9 @@
       "city": "Daly City, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Westmoor High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/14417"
@@ -3082,7 +3672,10 @@
       "city": "Fresno, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Fresno County Superintendent of Schools",
+        "Terronez Middle School: Home"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31177"
@@ -3093,7 +3686,9 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Kipp San Jose Collegiate"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/16688"
@@ -3115,7 +3710,9 @@
       "city": "San Francisco, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Jewish Community High School of the Bay"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/9448"
@@ -3126,7 +3723,10 @@
       "city": "San Jose, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "John Deere",
+        "Yerba Buena High"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/31798"
@@ -3137,7 +3737,9 @@
       "city": "Daly City, CA, USA",
       "website": null,
       "rookieYear": null,
-      "sponsors": [],
+      "sponsors": [
+        "Jefferson High School"
+      ],
       "rank": null,
       "opr": null,
       "profileUrl": "https://ftc-events.firstinspires.org/2025/team/3791"
