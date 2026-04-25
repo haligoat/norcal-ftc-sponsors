@@ -48,14 +48,22 @@ function sleep(ms) {
 }
 
 function parseSponsors(html) {
-  const match = html.match(/\*\*2025 Sponsors:\*\*\s*([^\n<]+)/);
-  if (!match) {
-    // fallback: look for the pattern without bold markdown
-    const alt = html.match(/Sponsors:\s*<\/strong>\s*([^\n<]+)/);
-    if (alt) return cleanSponsors(alt[1]);
-    return [];
+  // Try multiple patterns the FIRST site uses
+  const patterns = [
+    /Sponsors:<\/strong>\s*([^<\n]+)/i,
+    /\*\*\*2025 Sponsors:\*\*\*\s*([^<\n]+)/i,
+    /2025 Sponsors:\s*([^<\n]+)/i,
+    /Sponsors:\s*([^<\n]+)/i,
+  ];
+
+  for (const pattern of patterns) {
+    const match = html.match(pattern);
+    if (match) {
+      const cleaned = cleanSponsors(match[1]);
+      if (cleaned.length > 0) return cleaned;
+    }
   }
-  return cleanSponsors(match[1]);
+  return [];
 }
 
 function cleanSponsors(raw) {
