@@ -48,22 +48,9 @@ function sleep(ms) {
 }
 
 function parseSponsors(html) {
-  // Try multiple patterns the FIRST site uses
-  const patterns = [
-    /Sponsors:<\/strong>\s*([^<\n]+)/i,
-    /\*\*\*2025 Sponsors:\*\*\*\s*([^<\n]+)/i,
-    /2025 Sponsors:\s*([^<\n]+)/i,
-    /Sponsors:\s*([^<\n]+)/i,
-  ];
-
-  for (const pattern of patterns) {
-    const match = html.match(pattern);
-    if (match) {
-      const cleaned = cleanSponsors(match[1]);
-      if (cleaned.length > 0) return cleaned;
-    }
-  }
-  return [];
+  const match = html.match(/<b><em>2025 Sponsors:\s*<\/em><\/b>\s*([^<\n]+)/i);
+  if (!match) return [];
+  return cleanSponsors(match[1]);
 }
 
 function cleanSponsors(raw) {
