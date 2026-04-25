@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "region": "USCANO",
+    "season": "2025",
+    "generatedAt": "2025-02-25T00:00:00.000Z",
+    "totalTeams": 16,
+    "teamsWithSponsors": 14,
+    "_note": "This is sample data. Run `node scripts/scrape.js` to fetch all 285 teams."
+  },
+  "teams": [
+    {
+      "id": "14259",
+      "name": "TURBΩ V8",
+      "city": "Pleasanton, CA, USA",
+      "website": null,
+      "rookieYear": 2017,
+      "sponsors": ["TE Connectivity", "Google"],
+      "rank": 1,
+      "opr": 201.6,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/14259"
+    },
+    {
+      "id": "21227",
+      "name": "Legend",
+      "city": "Fremont, CA, USA",
+      "website": "http://legendftc.com",
+      "rookieYear": 2022,
+      "sponsors": ["JoinDigital", "Gene Haas Foundation", "DOW"],
+      "rank": 2,
+      "opr": 193.4,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/21227"
+    },
+    {
+      "id": "19862",
+      "name": "Mecha Mantises",
+      "city": "Fremont, CA, USA",
+      "website": "https://mechamantises.wordpress.com",
+      "rookieYear": 2021,
+      "sponsors": ["Apple"],
+      "rank": 3,
+      "opr": 190.2,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/19862"
+    },
+    {
+      "id": "6165",
+      "name": "MSET CuttleFish",
+      "city": "Saratoga, CA, USA",
+      "website": "http://www.saratogamset.org",
+      "rookieYear": 2012,
+      "sponsors": ["Apple Inc.", "John Deere", "Qualcomm", "PG&E", "Rotary Club of Saratoga", "Gene Haas Foundation", "Google"],
+      "rank": 4,
+      "opr": 185.0,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/6165"
+    },
+    {
+      "id": "16236",
+      "name": "Juice",
+      "city": "Folsom, CA, USA",
+      "website": "https://juicerobotics.org/",
+      "rookieYear": 2018,
+      "sponsors": ["Silent Bot Deadly STEM Education", "Prototek Digital Manufacturing", "Micron"],
+      "rank": 5,
+      "opr": 180.1,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/16236"
+    },
+    {
+      "id": "26216",
+      "name": "MK II",
+      "city": "Fremont, CA, USA",
+      "website": "https://www.mk2robotics.net",
+      "rookieYear": 2024,
+      "sponsors": ["Pacific Gas and Electricity"],
+      "rank": 6,
+      "opr": 172.3,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/26216"
+    },
+    {
+      "id": "13356",
+      "name": "RoboForce",
+      "city": "Fremont, CA, USA",
+      "website": "https://ftc13356.wixsite.com/ftc13356",
+      "rookieYear": 2017,
+      "sponsors": ["Apple Inc.", "Code For Fun", "Send Cut Send"],
+      "rank": 7,
+      "opr": 168.9,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/13356"
+    },
+    {
+      "id": "7641",
+      "name": "MSET BettaFish",
+      "city": "Saratoga, CA, USA",
+      "website": "http://www.saratogamset.org",
+      "rookieYear": 2013,
+      "sponsors": ["Qualcomm", "Apple Inc."],
+      "rank": 8,
+      "opr": 162.4,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/7641"
+    },
+    {
+      "id": "7390",
+      "name": "MSET JellyFish",
+      "city": "Saratoga, CA, USA",
+      "website": "http://www.saratogamset.org",
+      "rookieYear": 2013,
+      "sponsors": ["Google", "SanDisk Corp.", "Apple Inc."],
+      "rank": 9,
+      "opr": 158.7,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/7390"
+    },
+    {
+      "id": "12635",
+      "name": "Kuriosity Robotics",
+      "city": "Palo Alto, CA, USA",
+      "website": "https://www.kuriosityrobotics.com/",
+      "rookieYear": 2017,
+      "sponsors": ["Google", "Apple", "Cisco", "PayPal", "PG&E"],
+      "rank": 10,
+      "opr": 155.2,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/12635"
+    },
+    {
+      "id": "8375",
+      "name": "Vulcan Robotics",
+      "city": "San Mateo, CA, USA",
+      "website": "https://vulcanrobotics.org",
+      "rookieYear": 2014,
+      "sponsors": ["Synnex Corporation", "Intuitive Surgical", "No Starch Press", "PG&E", "Dream Maker Fund", "Artiman"],
+      "rank": 11,
+      "opr": 150.8,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/8375"
+    },
+    {
+      "id": "9784",
+      "name": "Dry Ice",
+      "city": "Belmont, CA, USA",
+      "website": "http://www.basementdevelopers.org",
+      "rookieYear": 2015,
+      "sponsors": [],
+      "rank": 12,
+      "opr": 148.3,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/9784"
+    },
+    {
+      "id": "4345",
+      "name": "Aragon Robotics",
+      "city": "San Mateo, CA, USA",
+      "website": "http://aragonrobotics.org/",
+      "rookieYear": 2010,
+      "sponsors": ["San Mateo Union High School District", "Apple", "Google", "Intuitive Surgical"],
+      "rank": 13,
+      "opr": 144.1,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/4345"
+    },
+    {
+      "id": "8367",
+      "name": "ACME Robotics",
+      "city": "Grass Valley, CA, USA",
+      "website": "http://www.goacmerobotics.com",
+      "rookieYear": 2014,
+      "sponsors": ["Telestream"],
+      "rank": 14,
+      "opr": 138.6,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/8367"
+    },
+    {
+      "id": "596",
+      "name": "SpectreBots",
+      "city": "Fremont, CA, USA",
+      "website": "https://team596ftc.wixsite.com/spectrebots-page",
+      "rookieYear": 2007,
+      "sponsors": ["PG&E", "Dream Makers Grant"],
+      "rank": 15,
+      "opr": 132.0,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/596"
+    },
+    {
+      "id": "5773",
+      "name": "Ink and Metal",
+      "city": "Fremont, CA, USA",
+      "website": null,
+      "rookieYear": 2011,
+      "sponsors": ["American High School"],
+      "rank": 16,
+      "opr": 128.4,
+      "profileUrl": "https://ftc-events.firstinspires.org/2025/team/5773"
+    }
+  ]
+}
