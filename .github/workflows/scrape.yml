@@ -1,0 +1,29 @@
+name: Scrape FTC Sponsors
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run scraper
+        run: node scripts/scrape.js
+
+      - name: Commit updated data
+        run: |
+          git config --global user.name "ftc-scraper-bot"
+          git config --global user.email "bot@noreply"
+          git add docs/data/
+          git diff --cached --quiet || git commit -m "chore: update sponsor data $(date -u +%Y-%m-%d)"
+          git push
