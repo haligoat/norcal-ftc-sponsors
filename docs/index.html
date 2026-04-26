@@ -355,6 +355,23 @@
 
     .website-link:hover { color: var(--accent); }
 
+    .find-email-btn {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.62rem;
+      background: transparent;
+      border: 1px solid rgba(91,143,255,0.2);
+      color: var(--accent);
+      border-radius: 4px;
+      padding: 0.2rem 0.5rem;
+      cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+    }
+
+    .find-email-btn:hover {
+      background: rgba(91,143,255,0.1);
+      border-color: var(--accent);
+    }
+
     .loading {
       display: flex;
       align-items: center;
@@ -445,13 +462,6 @@
     <input type="search" id="searchInput" placeholder="Search team name, number, or sponsor…" />
   </div>
 
-  <select id="sortSelect">
-    <option value="rank">Sort: by rank</option>
-    <option value="name">Sort: A–Z</option>
-    <option value="sponsors">Sort: most sponsors</option>
-    <option value="rookie">Sort: oldest team</option>
-  </select>
-
   <select id="filterSelect">
     <option value="all">All teams</option>
     <option value="sponsored">Has sponsors</option>
@@ -479,6 +489,17 @@
   </main>
 </div>
 
+<!-- Email Finder Modal -->
+<div id="emailModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:100;align-items:center;justify-content:center;">
+  <div style="background:#111118;border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:2rem;width:90%;max-width:500px;position:relative;">
+    <button onclick="closeModal()" style="position:absolute;top:1rem;right:1rem;background:transparent;border:none;color:#6b6b88;font-size:1.2rem;cursor:pointer;">✕</button>
+    <div style="font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.1em;text-transform:uppercase;color:#5b8fff;margin-bottom:0.5rem;">AI Contact Finder</div>
+    <div id="modalTeamName" style="font-family:'Syne',sans-serif;font-size:1.3rem;font-weight:800;margin-bottom:1.5rem;"></div>
+    <div id="modalOutput" style="font-family:'DM Mono',monospace;font-size:0.8rem;color:#6b6b88;line-height:1.7;">Click the button below to search.</div>
+    <button id="modalSearchBtn" onclick="searchEmail()" style="margin-top:1.25rem;width:100%;background:#5b8fff;border:none;border-radius:8px;color:white;font-family:'DM Mono',monospace;font-size:0.82rem;padding:0.75rem;cursor:pointer;">🔍 Find Email with AI</button>
+  </div>
+</div>
+
 <footer>
   <span>Data from <a href="https://ftc-events.firstinspires.org/2025/region/USCANO" target="_blank">FIRST Inspires</a> · Updated weekly via GitHub Actions</span>
   <span>NorCal FTC · <a href="https://github.com/haligoat/norcal-ftc-sponsors" target="_blank">View source ↗</a></span>
@@ -487,6 +508,7 @@
 <script>
   let allTeams = [];
   let freqData = [];
+  let currentTeam = null;
 
   async function loadData() {
     try {
@@ -561,7 +583,6 @@
 
   function getFilteredSorted() {
     const q = document.getElementById('searchInput').value.toLowerCase().trim();
-    const sort = document.getElementById('sortSelect').value;
     const filter = document.getElementById('filterSelect').value;
 
     let teams = [...allTeams];
@@ -577,20 +598,12 @@
       });
     }
 
-    if (sort === 'rank') {
-      teams.sort((a, b) => {
-        if (a.rank && b.rank) return a.rank - b.rank;
-        if (a.rank) return -1;
-        if (b.rank) return 1;
-        return a.name.localeCompare(b.name);
-      });
-    } else if (sort === 'name') {
-      teams.sort((a, b) => a.name.localeCompare(b.name));
-    } else if (sort === 'sponsors') {
-      teams.sort((a, b) => b.sponsors.length - a.sponsors.length);
-    } else if (sort === 'rookie') {
-      teams.sort((a, b) => (a.rookieYear || 9999) - (b.rookieYear || 9999));
-    }
+    teams.sort((a, b) => {
+      if (a.rank && b.rank) return a.rank - b.rank;
+      if (a.rank) return -1;
+      if (b.rank) return 1;
+      return a.name.localeCompare(b.name);
+    });
 
     return teams;
   }
@@ -640,13 +653,60 @@
           <div class="card-footer">
             <span class="sponsor-count-label">${t.sponsors.length} sponsor${t.sponsors.length !== 1 ? 's' : ''}</span>
             ${websiteLink}
+            <button class="find-email-btn" data-name="${t.name.replace(/"/g, '&quot;')}" data-id="${t.id}" onclick="openEmailFinder(this)">find email</button>
           </div>
         </div>`;
     }).join('');
   }
 
+  function openEmailFinder(el) {
+    currentTeam = { name: el.dataset.name, id: el.dataset.id };
+    document.getElementById('modalTeamName').textContent = currentTeam.name + ' · #' + currentTeam.id;
+    document.getElementById('modalOutput').innerHTML = 'Click the button below to search.';
+    document.getElementById('modalSearchBtn').textContent = '🔍 Find Email with AI';
+    document.getElementById('modalSearchBtn').disabled = false;
+    document.getElementById('emailModal').style.display = 'flex';
+  }
+
+  function closeModal() {
+    document.getElementById('emailModal').style.display = 'none';
+  }
+
+  async function searchEmail() {
+    const btn = document.getElementById('modalSearchBtn');
+    const out = document.getElementById('modalOutput');
+    btn.disabled = true;
+    btn.textContent = '⏳ Searching...';
+    out.innerHTML = '<span style="color:#5b8fff">AI is searching the web...</span>';
+
+    try {
+      const res = await fetch('https://legendary-seahorse-2570c6.netlify.app/.netlify/functions/findEmail', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ team: currentTeam.name + ' FTC team ' + currentTeam.id })
+      });
+      const data = await res.json();
+      if (data.error) throw new Error(data.error);
+
+      const emailHtml = data.email && data.email !== 'null'
+        ? `<div style="color:#4ade80;background:rgba(74,222,128,0.08);border:1px solid rgba(74,222,128,0.2);border-radius:6px;padding:0.6rem 0.9rem;margin:0.75rem 0;cursor:pointer;" onclick="navigator.clipboard.writeText('${data.email}')" title="Click to copy">📧 ${data.email} <span style="color:#6b6b88;font-size:0.65rem">(click to copy)</span></div>`
+        : `<div style="color:#6b6b88;margin:0.75rem 0;">No public email found.</div>`;
+
+      out.innerHTML = `
+        ${emailHtml}
+        ${data.website ? `<div style="margin-bottom:0.5rem">🌐 <a href="${data.website}" target="_blank" style="color:#5b8fff">${data.website}</a></div>` : ''}
+        ${data.contactName ? `<div style="margin-bottom:0.5rem">👤 ${data.contactName}</div>` : ''}
+        <div style="background:rgba(91,143,255,0.05);border:1px solid rgba(91,143,255,0.1);border-radius:6px;padding:0.6rem;margin-top:0.75rem;color:#6b6b88;font-size:0.7rem;line-height:1.6">${data.notes || ''}</div>
+        <div style="font-size:0.65rem;color:#6b6b88;margin-top:0.5rem">Confidence: ${data.confidence || 'unknown'}</div>`;
+    } catch(err) {
+      out.innerHTML = `<span style="color:#ff6b4a">Error: ${err.message}</span>`;
+    }
+
+    btn.disabled = false;
+    btn.textContent = '🔍 Search Again';
+  }
+
   document.getElementById('searchInput').addEventListener('input', renderTeams);
-  document.getElementById('sortSelect').addEventListener('change', renderTeams);
   document.getElementById('filterSelect').addEventListener('change', renderTeams);
 
   loadData();
