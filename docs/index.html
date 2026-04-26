@@ -709,8 +709,8 @@ function renderTeams() {
             ${t.sponsors.length} sponsor${t.sponsors.length !== 1 ? "s" : ""}
           </span>
           ${websiteLink}
-<button onclick="openEmailFinder('${t.name.replace(/'/g,"\\'")}','${t.id}')" style="font-family:'DM Mono',monospace;font-size:0.65rem;background:transparent;border:1px solid rgba(91,143,255,0.2);color:#5b8fff;border-radius:4px;padding:0.2rem 0.5rem;cursor:pointer;">find email</button>
-        </div>
+<button onclick="openEmailFinder(this)" data-name="${t.name.replace(/"/g,'&quot;')}" data-id="${t.id}"
+</div>
       </div>`;
   }).join("");
 }
@@ -727,7 +727,9 @@ document.getElementById("filterSelect").addEventListener("change", renderTeams);
 loadData();
 let currentTeamForEmail = null;
 
-function openEmailFinder(teamName, teamId) {
+function openEmailFinder(btn) {
+  const teamName = btn.dataset.name;
+  const teamId = btn.dataset.id;
   currentTeamForEmail = { name: teamName, id: teamId };
   document.getElementById('modalTeamName').textContent = teamName + ' · #' + teamId;
   document.getElementById('modalOutput').innerHTML = 'Click the button below to search for contact info.';
