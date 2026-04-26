@@ -1,778 +1,125 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NorCal FTC Sponsors</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
-  <style>
-    :root {
-      --bg: #0a0a0f;
-      --surface: #111118;
-      --border: rgba(255,255,255,0.07);
-      --accent: #5b8fff;
-      --accent2: #ff6b4a;
-      --text: #f0f0f8;
-      --muted: #6b6b88;
-      --tag-bg: rgba(91,143,255,0.12);
-      --tag-border: rgba(91,143,255,0.25);
-    }
-
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    html { scroll-behavior: smooth; }
-
-    body {
-      font-family: 'Syne', sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    /* grid noise texture */
-    body::before {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background-image:
-        linear-gradient(rgba(91,143,255,0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(91,143,255,0.03) 1px, transparent 1px);
-      background-size: 40px 40px;
-      pointer-events: none;
-      z-index: 0;
-    }
-
-    /* ── Header ── */
-    header {
-      position: relative;
-      z-index: 1;
-      border-bottom: 1px solid var(--border);
-      padding: 3rem 2rem 2rem;
-      max-width: 1400px;
-      margin: 0 auto;
-    }
-
-    .header-eyebrow {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.7rem;
-      letter-spacing: 0.15em;
-      color: var(--accent);
-      text-transform: uppercase;
-      margin-bottom: 0.75rem;
-    }
-
-    h1 {
-      font-size: clamp(2rem, 5vw, 3.5rem);
-      font-weight: 800;
-      line-height: 1.05;
-      letter-spacing: -0.03em;
-    }
-
-    h1 span { color: var(--accent); }
-
-    .header-sub {
-      margin-top: 0.75rem;
-      color: var(--muted);
-      font-size: 0.95rem;
-      font-weight: 400;
-    }
-
-    .header-meta {
-      margin-top: 1.5rem;
-      display: flex;
-      gap: 2rem;
-      flex-wrap: wrap;
-    }
-
-    .meta-chip {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.75rem;
-      color: var(--muted);
-    }
-
-    .meta-chip strong {
-      color: var(--text);
-      font-weight: 500;
-    }
-
-    /* ── Controls ── */
-    .controls {
-      position: relative;
-      z-index: 1;
-      max-width: 1400px;
-      margin: 0 auto;
-      padding: 1.5rem 2rem;
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-      align-items: center;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .search-wrap {
-      position: relative;
-      flex: 1;
-      min-width: 200px;
-      max-width: 380px;
-    }
-
-    .search-icon {
-      position: absolute;
-      left: 0.85rem;
-      top: 50%;
-      transform: translateY(-50%);
-      color: var(--muted);
-      font-size: 0.9rem;
-      pointer-events: none;
-    }
-
-    input[type="search"] {
-      width: 100%;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      color: var(--text);
-      font-family: 'DM Mono', monospace;
-      font-size: 0.82rem;
-      padding: 0.6rem 0.9rem 0.6rem 2.4rem;
-      outline: none;
-      transition: border-color 0.2s;
-    }
-
-    input[type="search"]:focus { border-color: var(--accent); }
-    input[type="search"]::placeholder { color: var(--muted); }
-
-    select {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      color: var(--text);
-      font-family: 'DM Mono', monospace;
-      font-size: 0.82rem;
-      padding: 0.6rem 0.9rem;
-      outline: none;
-      cursor: pointer;
-      transition: border-color 0.2s;
-    }
-
-    select:focus { border-color: var(--accent); }
-
-    .count-label {
-      margin-left: auto;
-      font-family: 'DM Mono', monospace;
-      font-size: 0.75rem;
-      color: var(--muted);
-    }
-
-    /* ── Main layout ── */
-    .layout {
-      position: relative;
-      z-index: 1;
-      max-width: 1400px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: 280px 1fr;
-      gap: 0;
-      min-height: calc(100vh - 260px);
-    }
-
-    /* ── Sidebar: top sponsors ── */
-    .sidebar {
-      border-right: 1px solid var(--border);
-      padding: 1.5rem;
-      position: sticky;
-      top: 0;
-      height: calc(100vh - 260px);
-      overflow-y: auto;
-    }
-
-    .sidebar::-webkit-scrollbar { width: 4px; }
-    .sidebar::-webkit-scrollbar-track { background: transparent; }
-    .sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
-
-    .sidebar-title {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.65rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 1rem;
-    }
-
-    .sponsor-row {
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-      padding: 0.45rem 0;
-      border-bottom: 1px solid var(--border);
-      cursor: pointer;
-      transition: opacity 0.15s;
-    }
-
-    .sponsor-row:last-child { border-bottom: none; }
-    .sponsor-row:hover { opacity: 0.7; }
-
-    .sponsor-rank {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.6rem;
-      color: var(--muted);
-      min-width: 20px;
-    }
-
-    .sponsor-bar-wrap {
-      flex: 1;
-      height: 3px;
-      background: var(--border);
-      border-radius: 2px;
-      overflow: hidden;
-    }
-
-    .sponsor-bar {
-      height: 100%;
-      background: var(--accent);
-      border-radius: 2px;
-      transition: width 0.4s ease;
-    }
-
-    .sponsor-name-text {
-      font-size: 0.78rem;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      max-width: 130px;
-    }
-
-    .sponsor-count {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.65rem;
-      color: var(--accent);
-      min-width: 20px;
-      text-align: right;
-    }
-
-    /* ── Team grid ── */
-    .team-grid {
-      padding: 1.5rem;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 1rem;
-      align-content: start;
-    }
-
-    .team-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.1rem 1.25rem;
-      transition: border-color 0.2s, transform 0.15s;
-      cursor: default;
-    }
-
-    .team-card:hover {
-      border-color: rgba(91,143,255,0.3);
-      transform: translateY(-1px);
-    }
-
-    .team-card.highlight {
-      border-color: var(--accent);
-      box-shadow: 0 0 0 1px rgba(91,143,255,0.2);
-    }
-
-    .card-top {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 0.5rem;
-      margin-bottom: 0.6rem;
-    }
-
-    .team-number {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.65rem;
-      color: var(--accent);
-      letter-spacing: 0.05em;
-    }
-
-    .team-name {
-      font-size: 0.95rem;
-      font-weight: 600;
-      line-height: 1.2;
-      margin-top: 0.15rem;
-    }
-
-    .team-city {
-      font-size: 0.75rem;
-      color: var(--muted);
-      margin-top: 0.2rem;
-    }
-
-    .rank-badge {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.6rem;
-      padding: 0.2rem 0.5rem;
-      border-radius: 4px;
-      background: rgba(255,107,74,0.12);
-      border: 1px solid rgba(255,107,74,0.25);
-      color: var(--accent2);
-      white-space: nowrap;
-    }
-
-    .sponsors-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.35rem;
-      margin-top: 0.75rem;
-    }
-
-    .sponsor-tag {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.65rem;
-      padding: 0.2rem 0.55rem;
-      border-radius: 4px;
-      background: var(--tag-bg);
-      border: 1px solid var(--tag-border);
-      color: var(--accent);
-      white-space: nowrap;
-    }
-
-    .no-sponsors {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.65rem;
-      color: var(--muted);
-      margin-top: 0.75rem;
-    }
-
-    .card-footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 0.85rem;
-      padding-top: 0.75rem;
-      border-top: 1px solid var(--border);
-    }
-
-    .opr-label {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.65rem;
-      color: var(--muted);
-    }
-
-    .opr-val {
-      color: var(--text);
-      font-weight: 500;
-    }
-
-    .website-link {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.65rem;
-      color: var(--muted);
-      text-decoration: none;
-      transition: color 0.15s;
-    }
-
-    .website-link:hover { color: var(--accent); }
-
-    /* ── No results ── */
-    .no-results {
-      grid-column: 1/-1;
-      padding: 4rem;
-      text-align: center;
-      color: var(--muted);
-      font-family: 'DM Mono', monospace;
-      font-size: 0.85rem;
-    }
-
-    /* ── Loading ── */
-    .loading {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 60vh;
-      gap: 1rem;
-      color: var(--muted);
-      font-family: 'DM Mono', monospace;
-      font-size: 0.8rem;
-    }
-
-    .spinner {
-      width: 20px;
-      height: 20px;
-      border: 2px solid var(--border);
-      border-top-color: var(--accent);
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-    }
-
-    @keyframes spin { to { transform: rotate(360deg); } }
-
-    /* ── Error ── */
-    .error-box {
-      margin: 3rem 2rem;
-      padding: 1.5rem;
-      background: rgba(255,107,74,0.07);
-      border: 1px solid rgba(255,107,74,0.2);
-      border-radius: 10px;
-      font-family: 'DM Mono', monospace;
-      font-size: 0.8rem;
-      color: var(--accent2);
-    }
-
-    .error-box code {
-      display: block;
-      margin-top: 0.75rem;
-      color: var(--muted);
-      font-size: 0.72rem;
-      line-height: 1.7;
-    }
-
-    /* ── Footer ── */
-    footer {
-      position: relative;
-      z-index: 1;
-      border-top: 1px solid var(--border);
-      padding: 1.5rem 2rem;
-      max-width: 1400px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-
-    footer span {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.7rem;
-      color: var(--muted);
-    }
-
-    footer a { color: var(--accent); text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
-
-    /* ── Responsive ── */
-    @media (max-width: 900px) {
-      .layout { grid-template-columns: 1fr; }
-      .sidebar {
-        height: auto;
-        position: static;
-        border-right: none;
-        border-bottom: 1px solid var(--border);
-        display: none; /* collapsed on mobile */
-      }
-    }
-  </style>
-</head>
-<body>
-
-<header>
-  <div class="header-eyebrow">FIRST Tech Challenge · 2024–25 Season</div>
-  <h1>NorCal FTC <span>Sponsors</span></h1>
-  <p class="header-sub">Sponsor data for all 285 teams in the California Northern region (USCANO)</p>
-  <div class="header-meta" id="headerMeta">
-    <span class="meta-chip">Loading data…</span>
-  </div>
-</header>
-
-<div class="controls">
-  <div class="search-wrap">
-    <span class="search-icon">⌕</span>
-    <input type="search" id="searchInput" placeholder="Search team or sponsor…" />
-  </div>
-
-  <select id="sortSelect">
-    <option value="rank">Sort: by rank</option>
-    <option value="name">Sort: A–Z</option>
-    <option value="sponsors">Sort: most sponsors</option>
-    <option value="rookie">Sort: oldest team</option>
-  </select>
-
-  <select id="filterSelect">
-    <option value="all">All teams</option>
-    <option value="sponsored">Has sponsors</option>
-    <option value="unsponsored">No sponsors listed</option>
-    <option value="top50">Top 50 ranked</option>
-  </select>
-
-  <span class="count-label" id="countLabel">— teams</span>
-</div>
-
-<div class="layout">
-  <aside class="sidebar">
-    <div class="sidebar-title">Top sponsors by team count</div>
-    <div id="sponsorLeaderboard">
-      <div class="loading"><div class="spinner"></div>loading…</div>
-    </div>
-  </aside>
-
-  <main>
-    <div class="team-grid" id="teamGrid">
-      <div class="loading" style="grid-column:1/-1">
-        <div class="spinner"></div> fetching sponsor data…
-      </div>
-    </div>
-  </main>
-</div>
-<!-- Email Finder Modal -->
-<div id="emailModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.8);z-index:100;align-items:center;justify-content:center;">
-  <div style="background:#111118;border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:2rem;width:90%;max-width:500px;position:relative;">
-    <button onclick="closeModal()" style="position:absolute;top:1rem;right:1rem;background:transparent;border:none;color:#6b6b88;font-size:1.2rem;cursor:pointer;">✕</button>
-    <div style="font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.1em;text-transform:uppercase;color:#5b8fff;margin-bottom:0.5rem;">AI Contact Finder</div>
-    <div id="modalTeamName" style="font-family:'Syne',sans-serif;font-size:1.3rem;font-weight:800;margin-bottom:1.5rem;"></div>
-    <div id="modalOutput" style="font-family:'DM Mono',monospace;font-size:0.8rem;color:#6b6b88;">Click search to find contact email...</div>
-    <button id="modalSearchBtn" onclick="searchEmail()" style="margin-top:1.25rem;width:100%;background:#5b8fff;border:none;border-radius:8px;color:white;font-family:'DM Mono',monospace;font-size:0.82rem;padding:0.75rem;cursor:pointer;">
-      🔍 Find Email with AI
-    </button>
-  </div>
-</div>
-<footer>
-  <span>Data from <a href="https://ftc-events.firstinspires.org/2025/region/USCANO" target="_blank">FIRST Inspires</a> · Updated weekly via GitHub Actions</span>
-  <span>Built for NorCal FTC · <a href="https://github.com" target="_blank">View source ↗</a></span>
-</footer>
-
-<script>
-// ── Data loading ───────────────────────────────────────────────────────────────
-let allTeams = [];
-let freqData = [];
-let activeSponsorFilter = null;
-
-async function loadData() {
-  try {
-    const [sponsorsRes, freqRes] = await Promise.all([
-      fetch("data/sponsors.json"),
-      fetch("data/sponsor_frequency.json"),
-    ]);
-
-    if (!sponsorsRes.ok) throw new Error(`sponsors.json: ${sponsorsRes.status}`);
-
-    const sponsorsData = await sponsorsRes.json();
-    allTeams = sponsorsData.teams || [];
-    freqData = freqRes.ok ? await freqRes.json() : [];
-
-    updateHeaderMeta(sponsorsData.meta);
-    renderLeaderboard();
-    renderTeams();
-  } catch (err) {
-    showError(err);
-  }
-}
-
-function showError(err) {
-  document.getElementById("teamGrid").innerHTML = `
-    <div class="error-box" style="grid-column:1/-1">
-      <strong>Could not load sponsor data.</strong>
-      <code>
-        ${err.message}<br><br>
-        Run the scraper first:<br>
-        &nbsp;&nbsp;node scripts/scrape.js<br><br>
-        Then open the site with a local server:<br>
-        &nbsp;&nbsp;npx serve . &nbsp;or&nbsp; python3 -m http.server 8080
-      </code>
-    </div>`;
-  document.getElementById("sponsorLeaderboard").innerHTML =
-    '<span style="color:var(--muted);font-size:0.75rem;font-family:\'DM Mono\',monospace">no data</span>';
-}
-
-// ── Header meta ───────────────────────────────────────────────────────────────
-function updateHeaderMeta(meta) {
-  if (!meta) return;
-  const d = new Date(meta.generatedAt).toLocaleDateString("en-US", {
-    month: "short", day: "numeric", year: "numeric"
-  });
-  document.getElementById("headerMeta").innerHTML = `
-    <span class="meta-chip">Region <strong>${meta.region}</strong></span>
-    <span class="meta-chip">Season <strong>${meta.season}</strong></span>
-    <span class="meta-chip">Teams <strong>${meta.totalTeams}</strong></span>
-    <span class="meta-chip">With sponsors <strong>${meta.teamsWithSponsors}</strong></span>
-    <span class="meta-chip">Updated <strong>${d}</strong></span>
-  `;
-}
-
-// ── Sidebar leaderboard ───────────────────────────────────────────────────────
-function renderLeaderboard() {
-  const top = freqData.slice(0, 30);
-  if (!top.length) {
-    document.getElementById("sponsorLeaderboard").innerHTML =
-      '<span style="color:var(--muted);font-size:0.75rem;font-family:\'DM Mono\',monospace">no frequency data</span>';
-    return;
-  }
-  const max = top[0].count;
-  document.getElementById("sponsorLeaderboard").innerHTML = top.map((s, i) => `
-    <div class="sponsor-row" onclick="filterBySponsor('${esc(s.name)}')" title="Click to filter by ${esc(s.name)}">
-      <span class="sponsor-rank">${i + 1}</span>
-      <div class="sponsor-bar-wrap">
-        <div class="sponsor-bar" style="width:${Math.round((s.count / max) * 100)}%"></div>
-      </div>
-      <span class="sponsor-name-text">${s.name}</span>
-      <span class="sponsor-count">${s.count}</span>
-    </div>
-  `).join("");
-}
-
-function filterBySponsor(name) {
-  if (activeSponsorFilter === name) {
-    activeSponsorFilter = null;
-    document.getElementById("searchInput").value = "";
-  } else {
-    activeSponsorFilter = name;
-    document.getElementById("searchInput").value = name;
-  }
-  renderTeams();
-}
-
-function esc(s) {
-  return s.replace(/'/g, "\\'").replace(/"/g, "&quot;");
-}
-
-// ── Team rendering ────────────────────────────────────────────────────────────
-function getFilteredSorted() {
-  const q = document.getElementById("searchInput").value.toLowerCase().trim();
-  const sort = document.getElementById("sortSelect").value;
-  const filter = document.getElementById("filterSelect").value;
-
-  let teams = [...allTeams];
-
-  // Filter
-  if (filter === "sponsored") teams = teams.filter((t) => t.sponsors.length > 0);
-  if (filter === "unsponsored") teams = teams.filter((t) => t.sponsors.length === 0);
-  if (filter === "top50") teams = teams.filter((t) => t.rank && t.rank <= 50);
-
-  // Search
-  if (q) {
-    teams = teams.filter((t) => {
-      const haystack = [t.name, t.id, t.city, ...t.sponsors].join(" ").toLowerCase();
-      return haystack.includes(q);
-    });
-  }
-
-  // Sort
-  if (sort === "rank") {
-    teams.sort((a, b) => {
-      if (a.rank && b.rank) return a.rank - b.rank;
-      if (a.rank) return -1;
-      if (b.rank) return 1;
-      return a.name.localeCompare(b.name);
-    });
-  } else if (sort === "name") {
-    teams.sort((a, b) => a.name.localeCompare(b.name));
-  } else if (sort === "sponsors") {
-    teams.sort((a, b) => b.sponsors.length - a.sponsors.length);
-  } else if (sort === "rookie") {
-    teams.sort((a, b) => (a.rookieYear || 9999) - (b.rookieYear || 9999));
-  }
-
-  return teams;
-}
-
-function renderTeams() {
-  const teams = getFilteredSorted();
-  const q = document.getElementById("searchInput").value.toLowerCase();
-  document.getElementById("countLabel").textContent = `${teams.length} team${teams.length !== 1 ? "s" : ""}`;
-
-  if (!teams.length) {
-    document.getElementById("teamGrid").innerHTML =
-      '<div class="no-results">No teams match your search.</div>';
-    return;
-  }
-
-  document.getElementById("teamGrid").innerHTML = teams.map((t) => {
-    const isTop = t.rank && t.rank <= 10;
-    const rankBadge = t.rank
-      ? `<span class="rank-badge">#${t.rank}${t.opr ? ` · ${t.opr.toFixed(1)} OPR` : ""}</span>`
-      : "";
-
-    const sponsorTags = t.sponsors.length
-      ? `<div class="sponsors-list">${t.sponsors.map((s) => {
-          const hi = q && s.toLowerCase().includes(q);
-          return `<span class="sponsor-tag" style="${hi ? "background:rgba(91,143,255,0.25);border-color:var(--accent)" : ""}">${s}</span>`;
-        }).join("")}</div>`
-      : `<p class="no-sponsors">no sponsors listed</p>`;
-
-    const websiteLink = t.website
-      ? `<a class="website-link" href="${t.website}" target="_blank" rel="noopener">website ↗</a>`
-      : `<span class="website-link">—</span>`;
-
-    return `
-      <div class="team-card${isTop ? " highlight" : ""}">
-        <div class="card-top">
-          <div>
-            <div class="team-number">TEAM ${t.id}</div>
-            <div class="team-name">${t.name}</div>
-            <div class="team-city">${t.city}${t.rookieYear ? ` · est. ${t.rookieYear}` : ""}</div>
-          </div>
-          ${rankBadge}
-        </div>
-        ${sponsorTags}
-        <div class="card-footer">
-          <span class="opr-label">
-            ${t.sponsors.length} sponsor${t.sponsors.length !== 1 ? "s" : ""}
-          </span>
-          ${websiteLink}
-<button onclick="openEmailFinder(this)" data-name="${t.name.replace(/"/g,'&quot;')}" data-id="${t.id}"
-      </div>`;
-  }).join("");
-}
-
-// ── Events ────────────────────────────────────────────────────────────────────
-document.getElementById("searchInput").addEventListener("input", () => {
-  activeSponsorFilter = null;
-  renderTeams();
-});
-document.getElementById("sortSelect").addEventListener("change", renderTeams);
-document.getElementById("filterSelect").addEventListener("change", renderTeams);
-
-// ── Boot ──────────────────────────────────────────────────────────────────────
-loadData();
-let currentTeamForEmail = null;
-
-function openEmailFinder(btn) {
-  const teamName = btn.dataset.name;
-  const teamId = btn.dataset.id;
-  currentTeamForEmail = { name: teamName, id: teamId };
-  document.getElementById('modalTeamName').textContent = teamName + ' · #' + teamId;
-  document.getElementById('modalOutput').innerHTML = 'Click the button below to search for contact info.';
-  document.getElementById('emailModal').style.display = 'flex';
-}
-
-function closeModal() {
-  document.getElementById('emailModal').style.display = 'none';
-}
-
-async function searchEmail() {
-  const btn = document.getElementById('modalSearchBtn');
-  const out = document.getElementById('modalOutput');
-  btn.disabled = true;
-  btn.textContent = '⏳ Searching...';
-  out.innerHTML = '<span style="color:#5b8fff">AI is searching the web for contact info...</span>';
-
-  try {
-    const res = await fetch('https://legendary-seahorse-2570c6.netlify.app/.netlify/functions/findEmail', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ team: currentTeamForEmail.name + ' FTC team ' + currentTeamForEmail.id })
-    });
-    const data = await res.json();
-
-    const emailHtml = data.email
-      ? `<div style="color:#4ade80;background:rgba(74,222,128,0.08);border:1px solid rgba(74,222,128,0.2);border-radius:6px;padding:0.6rem 0.9rem;margin:0.75rem 0;cursor:pointer;" onclick="navigator.clipboard.writeText('${data.email}')" title="Click to copy">
-           📧 ${data.email} <span style="color:#6b6b88;font-size:0.65rem">(click to copy)</span>
-         </div>`
-      : `<div style="color:#6b6b88;margin:0.75rem 0;">No email found publicly.</div>`;
-
-    out.innerHTML = `
-      ${emailHtml}
-      ${data.website ? `<div style="margin-bottom:0.5rem">🌐 <a href="${data.website}" target="_blank" style="color:#5b8fff">${data.website}</a></div>` : ''}
-      ${data.contactName ? `<div style="margin-bottom:0.5rem">👤 ${data.contactName}</div>` : ''}
-      <div style="background:rgba(91,143,255,0.05);border:1px solid rgba(91,143,255,0.1);border-radius:6px;padding:0.6rem;margin-top:0.75rem;color:#6b6b88;font-size:0.7rem;line-height:1.6">${data.notes}</div>
-      <div style="font-size:0.65rem;color:#6b6b88;margin-top:0.5rem">Confidence: ${data.confidence}</div>`;
-  } catch(err) {
-    out.innerHTML = `<span style="color:#ff6b4a">Error: ${err.message}</span>`;
-  }
-
-  btn.disabled = false;
-  btn.textContent = '🔍 Search Again';
-}
-</script>
-</body>
-</html>
+@@ -0,0 +1,124 @@
+# NorCal FTC Sponsors
+
+A scraper + static website that collects and displays sponsor information for all teams in the **FIRST Tech Challenge California Northern (USCANO) region**.
+
+Live site auto-updates every Monday via GitHub Actions.
+
+---
+
+## 🚀 Quick Start
+
+### 1. Clone & install
+```bash
+git clone https://github.com/YOUR_USERNAME/norcal-ftc-sponsors.git
+cd norcal-ftc-sponsors
+# No npm install needed — scraper uses only Node.js built-ins
+```
+
+### 2. Run the scraper
+```bash
+node scripts/scrape.js
+```
+
+This writes three files to `data/`:
+- `sponsors.json` — full team + sponsor data
+- `sponsors.csv` — same data as a spreadsheet
+- `sponsor_frequency.json` — sponsors ranked by how many teams they appear on
+
+### 3. Preview the website locally
+```bash
+npx serve docs
+# or
+python3 -m http.server 8080 --directory docs
+```
+
+Then open http://localhost:8080
+
+---
+
+## 🛠 Scraper options
+
+```bash
+# Different region
+node scripts/scrape.js --region USCASO
+
+# Different season year
+node scripts/scrape.js --season 2024
+
+# Only scrape top 50 ranked teams (faster)
+node scripts/scrape.js --top 50
+
+# Combine flags
+node scripts/scrape.js --region USCANO --season 2025 --top 100
+```
+
+---
+
+## 🌐 Deploy to GitHub Pages
+
+1. Push this repo to GitHub
+2. Go to **Settings → Pages**
+3. Set source to **"Deploy from a branch"**, branch `main`, folder `/docs`
+4. Your site will be live at `https://YOUR_USERNAME.github.io/norcal-ftc-sponsors/`
+
+The GitHub Actions workflow (`.github/workflows/scrape.yml`) will automatically re-scrape every Monday at 6am UTC and push updated `data/` files, keeping the site current.
+
+You can also trigger it manually from the **Actions** tab.
+
+---
+
+## 📁 Project structure
+
+```
+norcal-ftc-sponsors/
+├── scripts/
+│   └── scrape.js          # Node.js scraper (no dependencies)
+├── docs/
+│   ├── index.html         # Static website
+│   └── data/              # Generated by scraper (committed to repo)
+│       ├── sponsors.json
+│       ├── sponsors.csv
+│       └── sponsor_frequency.json
+├── .github/
+│   └── workflows/
+│       └── scrape.yml     # Auto-scrape on schedule
+└── README.md
+```
+
+---
+
+## ⚙️ How it works
+
+1. **Scraper** hits `ftc-events.firstinspires.org/2025/region/USCANO` to get the full team list
+2. Fetches each team's individual page in parallel batches (8 at a time, politely throttled)
+3. Parses sponsor names, city, website, rookie year from the HTML
+4. Optionally fetches OPR rankings from `ftcstats.org`
+5. Writes JSON + CSV output
+
+No API key needed. Data is publicly available on FIRST's website.
+
+---
+
+## 🔧 Customizing
+
+Want to track a different region or add more data fields? Edit the config block at the top of `scripts/scrape.js`:
+
+```js
+const REGION = "USCANO";   // change to any FIRST region code
+const SEASON = "2025";     // change to any season year
+const CONCURRENCY = 8;     // parallel requests (keep ≤ 10 to be polite)
+const DELAY_MS = 200;      // ms delay between batches
+```
+
+---
+
+## 📄 Data notes
+
+- Sponsor data comes directly from teams' FIRST registration — accuracy varies by team
+- "Family/Community" entries are filtered out as they're not corporate sponsors
+- Teams with no sponsors listed show "no sponsors listed" on the site
+- OPR (Offensive Power Rating) comes from ftcstats.org when available
+
+---
+
+*Data sourced from [FIRST Inspires](https://ftc-events.firstinspires.org) and [FTC Stats](http://www.ftcstats.org). Not affiliated with FIRST.*
