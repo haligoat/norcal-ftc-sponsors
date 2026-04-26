@@ -514,7 +514,18 @@
     </div>
   </main>
 </div>
-
+<!-- Email Finder Modal -->
+<div id="emailModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.8);z-index:100;align-items:center;justify-content:center;">
+  <div style="background:#111118;border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:2rem;width:90%;max-width:500px;position:relative;">
+    <button onclick="closeModal()" style="position:absolute;top:1rem;right:1rem;background:transparent;border:none;color:#6b6b88;font-size:1.2rem;cursor:pointer;">✕</button>
+    <div style="font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.1em;text-transform:uppercase;color:#5b8fff;margin-bottom:0.5rem;">AI Contact Finder</div>
+    <div id="modalTeamName" style="font-family:'Syne',sans-serif;font-size:1.3rem;font-weight:800;margin-bottom:1.5rem;"></div>
+    <div id="modalOutput" style="font-family:'DM Mono',monospace;font-size:0.8rem;color:#6b6b88;">Click search to find contact email...</div>
+    <button id="modalSearchBtn" onclick="searchEmail()" style="margin-top:1.25rem;width:100%;background:#5b8fff;border:none;border-radius:8px;color:white;font-family:'DM Mono',monospace;font-size:0.82rem;padding:0.75rem;cursor:pointer;">
+      🔍 Find Email with AI
+    </button>
+  </div>
+</div>
 <footer>
   <span>Data from <a href="https://ftc-events.firstinspires.org/2025/region/USCANO" target="_blank">FIRST Inspires</a> · Updated weekly via GitHub Actions</span>
   <span>Built for NorCal FTC · <a href="https://github.com" target="_blank">View source ↗</a></span>
@@ -698,6 +709,7 @@ function renderTeams() {
             ${t.sponsors.length} sponsor${t.sponsors.length !== 1 ? "s" : ""}
           </span>
           ${websiteLink}
+<button onclick="openEmailFinder('${t.name.replace(/'/g,"\\'")}','${t.id}')" style="font-family:'DM Mono',monospace;font-size:0.65rem;background:transparent;border:1px solid rgba(91,143,255,0.2);color:#5b8fff;border-radius:4px;padding:0.2rem 0.5rem;cursor:pointer;">find email</button>
         </div>
       </div>`;
   }).join("");
@@ -713,6 +725,53 @@ document.getElementById("filterSelect").addEventListener("change", renderTeams);
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
 loadData();
+let currentTeamForEmail = null;
+
+function openEmailFinder(teamName, teamId) {
+  currentTeamForEmail = { name: teamName, id: teamId };
+  document.getElementById('modalTeamName').textContent = teamName + ' · #' + teamId;
+  document.getElementById('modalOutput').innerHTML = 'Click the button below to search for contact info.';
+  document.getElementById('emailModal').style.display = 'flex';
+}
+
+function closeModal() {
+  document.getElementById('emailModal').style.display = 'none';
+}
+
+async function searchEmail() {
+  const btn = document.getElementById('modalSearchBtn');
+  const out = document.getElementById('modalOutput');
+  btn.disabled = true;
+  btn.textContent = '⏳ Searching...';
+  out.innerHTML = '<span style="color:#5b8fff">AI is searching the web for contact info...</span>';
+
+  try {
+    const res = await fetch('https://legendary-seahorse-2570c6.netlify.app/.netlify/functions/findEmail', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ team: currentTeamForEmail.name + ' FTC team ' + currentTeamForEmail.id })
+    });
+    const data = await res.json();
+
+    const emailHtml = data.email
+      ? `<div style="color:#4ade80;background:rgba(74,222,128,0.08);border:1px solid rgba(74,222,128,0.2);border-radius:6px;padding:0.6rem 0.9rem;margin:0.75rem 0;cursor:pointer;" onclick="navigator.clipboard.writeText('${data.email}')" title="Click to copy">
+           📧 ${data.email} <span style="color:#6b6b88;font-size:0.65rem">(click to copy)</span>
+         </div>`
+      : `<div style="color:#6b6b88;margin:0.75rem 0;">No email found publicly.</div>`;
+
+    out.innerHTML = `
+      ${emailHtml}
+      ${data.website ? `<div style="margin-bottom:0.5rem">🌐 <a href="${data.website}" target="_blank" style="color:#5b8fff">${data.website}</a></div>` : ''}
+      ${data.contactName ? `<div style="margin-bottom:0.5rem">👤 ${data.contactName}</div>` : ''}
+      <div style="background:rgba(91,143,255,0.05);border:1px solid rgba(91,143,255,0.1);border-radius:6px;padding:0.6rem;margin-top:0.75rem;color:#6b6b88;font-size:0.7rem;line-height:1.6">${data.notes}</div>
+      <div style="font-size:0.65rem;color:#6b6b88;margin-top:0.5rem">Confidence: ${data.confidence}</div>`;
+  } catch(err) {
+    out.innerHTML = `<span style="color:#ff6b4a">Error: ${err.message}</span>`;
+  }
+
+  btn.disabled = false;
+  btn.textContent = '🔍 Search Again';
+}
 </script>
 </body>
 </html>
