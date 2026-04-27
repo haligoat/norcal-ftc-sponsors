@@ -22,33 +22,26 @@ exports.handler = async (event) => {
         body: JSON.stringify({
           contents: [{
             parts: [{
-              text: `Search the web and find the contact email for this FTC robotics team: "${team}".
-Check their website, FIRST Inspires profile at ftc-events.firstinspires.org, and any social media.
-Respond ONLY with a JSON object, no markdown, no explanation:
-{"teamName":"...","teamNumber":"...","email":"...or null","emailSource":"...or null","website":"...or null","contactName":"...or null","confidence":"high/medium/low","notes":"brief explanation"}`
+              text: `Find the contact email for FTC robotics team: "${team}". Search their website and FIRST profile at ftc-events.firstinspires.org. Return ONLY this JSON with no extra text or markdown:\n{"teamName":"","teamNumber":"","email":"","emailSource":"","website":"","contactName":"","confidence":"high or medium or low","notes":""}\nIf you cannot find something put null for that field.`
             }]
           }],
-          tools: [{ google_search: {} }]
+          tools: [{ google_search: {} }],
+          generationConfig: {
+            response_mime_type: "application/json"
+          }
         })
       }
     );
 
     const data = await response.json();
-    const text = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
-    const match = text.replace(/```json|```/g, "").trim().match(/\{[\s\S]+\}/);
-    if (!match) throw new Error("No JSON in response: " + text);
-    const result = JSON.parse(match[0]);
+    console.log("Gemini raw:", JSON.stringify(data));
 
-    return {
-      statusCode: 200,
-      headers: { "Access-Control-Allow-Origin": "*", "Access-Control-Allow-Headers": "Content-Type" },
-      body: JSON.stringify(result)
-    };
-  } catch (err) {
-    return {
-      statusCode: 500,
-      headers: { "Access-Control-Allow-Origin": "*", "Access-Control-Allow-Headers": "Content-Type" },
-      body: JSON.stringify({ error: err.message })
-    };
-  }
-};
+    const text = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
+    console.log("Gemini text:", text);
+
+    // Try multiple ways to extract JSON
+    let result;
+    try {
+      result = JSON.parse(text);
+    } catch {
+      const match = text.replace(/```json|```/g, "").trim().match(/\{[\s\S
