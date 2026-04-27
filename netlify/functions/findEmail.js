@@ -30,7 +30,8 @@ exports.handler = async function(event) {
     );
 
     const data = await response.json();
-    const text = data.candidates[0].content.parts[0].text;
+    const text = data?.candidates?.[0]?.content?.parts?.[0]?.text || JSON.stringify(data);
+
 
     let result;
     try {
